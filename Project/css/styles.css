@@ -28,8 +28,6 @@
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-
-
 .center {
     justify-content: center;
     align-items: center;
@@ -95,6 +93,11 @@
     width: 100%;
 }
 
+.img3 {
+    height: 400px;
+    width: 400px;
+}
+
 .headerIcon {
     width: 26px;
 }
@@ -132,4 +135,50 @@ button {
 
 .pink:hover {
     color: palevioletred;
+}
+
+/*  main*/
+main {
+    padding: 50px;
+}
+
+.rating:not(:checked)>input {
+    position: absolute;
+    appearance: none;
+}
+
+.rating:not(:checked)>label {
+    float: right;
+    cursor: pointer;
+    font-size: 30px;
+    color: #666;
+}
+
+.rating:not(:checked)>label:before {
+    content: '★';
+}
+
+.rating>input:checked+label:hover,
+.rating>input:checked+label:hover~label,
+.rating>input:checked~label:hover,
+.rating>input:checked~label:hover~label,
+.rating>label:hover~input:checked~label {
+    color: #e58e09;
+}
+
+.rating:not(:checked)>label:hover,
+.rating:not(:checked)>label:hover~label {
+    color: #ff9e0b;
+}
+
+.rating>input:checked~label {
+    color: #ffa723;
+}
+
+.images {
+    display: none;
+}
+
+.active {
+    display: grid;
 }
