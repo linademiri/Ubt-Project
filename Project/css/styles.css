@@ -30,6 +30,10 @@
     grid-template-columns: 1fr 1fr 1fr;
 }
 
+.grid4fr {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
 .center {
     justify-content: center;
     align-items: center;
@@ -63,6 +67,10 @@
 
 .padding15 {
     padding: 15px;
+}
+
+.padding5 {
+    padding: 5px;
 }
 
 .marginTop {
@@ -133,25 +141,18 @@
 }
 
 header {
-    background-color: palevioletred;
     padding: 20px;
     height: 90px;
 }
 
-/* .input1 {
-    background-color: rgba(255, 240, 248, 0.115);
-    opacity: 1px;
-    width: 200px;
-    height: 20px;
+hr {
     border: none;
-    border-bottom: 1px solid palevioletred;
-    padding: 10px;
+
+    height: 2px;
+
+    background-color: #ec008c;
 
 }
-
-.input1:hover {
-    background-color: rgb(212, 95, 134);
-} */
 
 button {
     all: unset;
@@ -164,7 +165,7 @@ button {
 }
 
 .pink:hover {
-    color: palevioletred;
+    color: #ec008c;
 }
 
 /*  main*/
