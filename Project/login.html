@@ -9,23 +9,25 @@
 </head>
 
 <body>
-    <div class="login-container">
-        <form class="login-form">
+    <a href="#login1" id="login2"></a>
+    <div class="login-container" id="login-container">
+        <form class="login-form" id="login-form">
             <h1>Welcome Back</h1>
             <p class="subtext">Log in to your account</p>
             <div class="form-group">
-                <input type="email" name="email" placeholder="Email Address" required>
+                <label for="login-email">Email Address</label>
+                <input type="email" id="login-email" name="email" placeholder="Email Address" required>
             </div>
             <div class="form-group">
-                <input type="password" name="password" placeholder="Password" required>
+                <label for="login-password">Password</label>
+                <input type="password" id="login-password" name="password" placeholder="Password" required>
             </div>
-            <button type="submit" class="btn">Login</button>
-            <button type="button" class="btn">Create New Account</button>
+            <button type="submit" class="btn" id="login-button">Login</button>
+            <a href="./signup.html#signup-container" id="create-account-link" class="btn-link">Create New Account</a>
         </form>
     </div>
+    <script src="./js/validation.js"></script>
 
-    </form>
-    </div>
 </body>
 
 </html>

@@ -21,240 +21,376 @@
             </div>
 
             <!-- <div><input class="input1" type="text" placeholder="search"></div> -->
-            <div><button><img class="hederButton" src="./img/header/search.svg" alt=""></button>
-                <button><img src="./img/header/menu.svg" alt="">
-                </button>
-                <button><img src="./img/header/notifications.svg" alt=""></button>
 
+            <div class="dFlex">
+
+                <div> <button> <img class="" src="./img/header/search.svg" alt=""> </button></div>
+                <div class="hederButton">
+                    <div class="positionR "><button class=""><img src="./img/header/menu.svg" alt=""></button></div>
+                    <ul class="positionA bgWhite borderRadius padding15 displayNone list right ">
+                        <button id="login1">
+                            <a href="./login.html#login2">
+                                <li class="fontSize20 pink">Login</li>
+                            </a>
+
+                        </button>
+                        <hr>
+                        <button id="signup1">
+                            <a href="./signup.html#signup2">
+                                <li class="fontSize20 pink">Signup</li>
+                            </a>
+                        </button>
+                    </ul>
+                </div>
+
+
+                <div><button><img src="./img/header/notifications.svg" alt=""></button></div>
             </div>
+        </div>
 
         </div>
         <div class="positionA position">
             <img class="img1" src="./img/Untitled-1.png" alt="">
         </div>
+
         <hr>
     </header>
     <main>
-        <div class="dFlex center">
-            <div class="dFlex ">
-                <p class="pink fontSize">Home</p>
-                <a href=""><img class="headerIcon" src="./img/211687_down_arrow_icon.png" alt=""></a>
-            </div>
-            <div class="dFlex padding20 ">
-                <p class="pink fontSize">Shop</p>
-                <a href=""><img class="headerIcon " src="./img/211687_down_arrow_icon.png" alt=""></a>
-            </div>
-            <div class="dFlex padding20 ">
-                <p class="pink fontSize">Product</p>
-                <a href=""><img class="headerIcon " src="./img/211687_down_arrow_icon.png" alt=""></a>
-            </div>
-            <div class="dFlex padding20">
-                <p class="pink fontSize">Contact</p>
-                <a href=""><img class="headerIcon " src="./img/211687_down_arrow_icon.png" alt=""></a>
-            </div>
-        </div>
-        <div><img class="img2" src="./img/img.jpg" alt=""></div>
-        <div class="dFlex jContentE marginTop gap25">
-            <div class="dFlex gap25 margin20 "><img src="./img/9802780_free_shipping_sales_discount_offer_icon.png"
-                    alt="">
-                <div class="">
-                    <h3 class="colorP ">Free Shipping</h3>
-                    <p>Free shipping on order</p>
+        <div class="padding50">
+            <div class="dFlex center">
+                <div class="dFlex ">
+                    <p class="pink fontSize">Home</p>
+                    <!-- kthehu -->
+                    <a href="#img1"><img id="h1" class="headerIcon" src="./img/211687_down_arrow_icon.png" alt=""></a>
+                </div>
+                <div class="dFlex padding20 ">
+                    <p class="pink fontSize">Shop</p>
+                    <a href=""><img class="headerIcon " src="./img/211687_down_arrow_icon.png" alt=""></a>
+                </div>
+                <div class="dFlex padding20 ">
+                    <p class="pink fontSize">Product</p>
+                    <a href=""><img class="headerIcon " src="./img/211687_down_arrow_icon.png" alt=""></a>
+                </div>
+                <div class="dFlex padding20">
+                    <p class="pink fontSize">Contact</p>
+                    <a href=""><img class="headerIcon " src="./img/211687_down_arrow_icon.png" alt=""></a>
                 </div>
             </div>
-            <div class="dFlex gap25 margin20"><img
-                    src="./img/7114152_equipment_listening_headphones_dj_headset_icon.png" alt="">
+            <div><img id="img1" class="img2" src="./img/img.jpg" alt=""></div>
+            <div id="home" class="dFlex jContentE marginTop gap25">
+                <!-- kthehu -->
+                <div class="dFlex gap25 margin20 "><a href="#h1"><img id="img1"
+                            src="./img/9802780_free_shipping_sales_discount_offer_icon.png" alt=""></a>
+                    <div class="">
+                        <h3 class="colorP ">Free Shipping</h3>
+                        <p>Free shipping on order</p>
+                    </div>
+                </div>
+                <div class="dFlex gap25 margin20"><img
+                        src="./img/7114152_equipment_listening_headphones_dj_headset_icon.png" alt="">
+                    <div>
+                        <h3 class="colorP ">Support 24/7</h3>
+                        <p>Contact us 24 hrs a day</p>
+                    </div>
+                </div>
+                <div class="dFlex gap25 margin20 ">
+                    <img src="./img/326667_lock_open_icon.png" alt="">
+                    <div class=" ">
+                        <h3 class="colorP ">Payment Secure</h3>
+                        <p>Free shipping on order</p>
+                    </div>
+                </div>
+            </div>
+            <h2 class="dFlex center marginTop pink">Arrivals Product</h2>
+            <div class="dFlex center gap25 marginTop fontSize ">
+                <button id="button1" class="pink ">Top Sell</button>
+                <button id="button2" class="pink ">Best Sellers</button>
+                <button id="button3" class="pink">New Arrivals</button>
+            </div>
+            <div id="images1" class="grid gridfrfrfr marginTop  images active">
+                <div><img class="img3 borderRadius" src="./img/1.jpg" alt="">
+                    <div class="rating dFlex">
+                        <input value="5" name="rate" id="star5" type="radio">
+                        <label title="text" for="star5"></label>
+                        <input value="4" name="rate" id="star4" type="radio">
+                        <label title="text" for="star4"></label>
+                        <input value="3" name="rate" id="star3" type="radio" checked="">
+                        <label title="text" for="star3"></label>
+                        <input value="2" name="rate" id="star2" type="radio">
+                        <label title="text" for="star2"></label>
+                        <input value="1" name="rate" id="star1" type="radio">
+                        <label title="text" for="star1"></label>
+                    </div>
+                    <div>
+                        <p>Long dress</p>
+                        <h4 class="colorP">59.00$</h4>
+                    </div>
+                </div>
+                <div><img class="img3 borderRadius" src="./img/1.jpg" alt="">
+                    <div class="rating dFlex">
+                        <input value="5" name="rate" id="star5" type="radio">
+                        <label title="text" for="star5"></label>
+                        <input value="4" name="rate" id="star4" type="radio">
+                        <label title="text" for="star4"></label>
+                        <input value="3" name="rate" id="star3" type="radio" checked="">
+                        <label title="text" for="star3"></label>
+                        <input value="2" name="rate" id="star2" type="radio">
+                        <label title="text" for="star2"></label>
+                        <input value="1" name="rate" id="star1" type="radio">
+                        <label title="text" for="star1"></label>
+                    </div>
+
+                    <div>
+                        <p>Long dress</p>
+                        <h4 class="colorP">55.00$</h4>
+                    </div>
+                </div>
+                <div class=""><img class="img3 borderRadius" src="./img/1.jpg" alt="">
+                    <div class="rating dFlex">
+                        <input value="5" name="rate" id="star5" type="radio">
+                        <label title="text" for="star5"></label>
+                        <input value="4" name="rate" id="star4" type="radio">
+                        <label title="text" for="star4"></label>
+                        <input value="3" name="rate" id="star3" type="radio" checked="">
+                        <label title="text" for="star3"></label>
+                        <input value="2" name="rate" id="star2" type="radio">
+                        <label title="text" for="star2"></label>
+                        <input value="1" name="rate" id="star1" type="radio">
+                        <label title="text" for="star1"></label>
+                    </div>
+                    <div>
+                        <p>Long dress</p>
+                        <h4 class="colorP">70.00$</h4>
+                    </div>
+                </div>
+            </div>
+            <div id="images2" class="grid gridfrfrfr marginTop  images ">
+                <div><img class="img3 borderRadius" src="./img/2.jpg" alt="">
+                    <div class="rating dFlex">
+                        <input value="5" name="rate" id="star5" type="radio">
+                        <label title="text" for="star5"></label>
+                        <input value="4" name="rate" id="star4" type="radio">
+                        <label title="text" for="star4"></label>
+                        <input value="3" name="rate" id="star3" type="radio" checked="">
+                        <label title="text" for="star3"></label>
+                        <input value="2" name="rate" id="star2" type="radio">
+                        <label title="text" for="star2"></label>
+                        <input value="1" name="rate" id="star1" type="radio">
+                        <label title="text" for="star1"></label>
+                    </div>
+                    <div>
+                        <p>Long dress</p>
+                        <h4 class="colorP">59.00$</h4>
+                    </div>
+                </div>
+                <div><img class="img3 borderRadius" src="./img/2.jpg" alt="">
+                    <div class="rating dFlex">
+                        <input value="5" name="rate" id="star5" type="radio">
+                        <label title="text" for="star5"></label>
+                        <input value="4" name="rate" id="star4" type="radio">
+                        <label title="text" for="star4"></label>
+                        <input value="3" name="rate" id="star3" type="radio" checked="">
+                        <label title="text" for="star3"></label>
+                        <input value="2" name="rate" id="star2" type="radio">
+                        <label title="text" for="star2"></label>
+                        <input value="1" name="rate" id="star1" type="radio">
+                        <label title="text" for="star1"></label>
+                    </div>
+
+                    <div>
+                        <p>Long dress</p>
+                        <h4 class="colorP">55.00$</h4>
+                    </div>
+                </div>
+                <div class=""><img class="img3 borderRadius" src="./img/2.jpg" alt="">
+                    <div class="rating dFlex">
+                        <input value="5" name="rate" id="star5" type="radio">
+                        <label title="text" for="star5"></label>
+                        <input value="4" name="rate" id="star4" type="radio">
+                        <label title="text" for="star4"></label>
+                        <input value="3" name="rate" id="star3" type="radio" checked="">
+                        <label title="text" for="star3"></label>
+                        <input value="2" name="rate" id="star2" type="radio">
+                        <label title="text" for="star2"></label>
+                        <input value="1" name="rate" id="star1" type="radio">
+                        <label title="text" for="star1"></label>
+                    </div>
+                    <div>
+                        <p>Long dress</p>
+                        <h4 class="colorP">70.00$</h4>
+                    </div>
+                </div>
+            </div>
+            <div id="images3" class="grid gridfrfrfr marginTop  images ">
+                <div><img class="img3 borderRadius" src="./img/3.jpg" alt="">
+                    <div class="rating dFlex">
+                        <input value="5" name="rate" id="star5" type="radio">
+                        <label title="text" for="star5"></label>
+                        <input value="4" name="rate" id="star4" type="radio">
+                        <label title="text" for="star4"></label>
+                        <input value="3" name="rate" id="star3" type="radio" checked="">
+                        <label title="text" for="star3"></label>
+                        <input value="2" name="rate" id="star2" type="radio">
+                        <label title="text" for="star2"></label>
+                        <input value="1" name="rate" id="star1" type="radio">
+                        <label title="text" for="star1"></label>
+                    </div>
+                    <div>
+                        <p>Long dress</p>
+                        <h4 class="colorP">59.00$</h4>
+                    </div>
+                </div>
+                <div><img class="img3 borderRadius" src="./img/3.jpg" alt="">
+                    <div class="rating dFlex">
+                        <input value="5" name="rate" id="star5" type="radio">
+                        <label title="text" for="star5"></label>
+                        <input value="4" name="rate" id="star4" type="radio">
+                        <label title="text" for="star4"></label>
+                        <input value="3" name="rate" id="star3" type="radio" checked="">
+                        <label title="text" for="star3"></label>
+                        <input value="2" name="rate" id="star2" type="radio">
+                        <label title="text" for="star2"></label>
+                        <input value="1" name="rate" id="star1" type="radio">
+                        <label title="text" for="star1"></label>
+                    </div>
+
+                    <div>
+                        <p>Long dress</p>
+                        <h4 class="colorP">55.00$</h4>
+                    </div>
+                </div>
+                <div class=""><img class="img3 borderRadius" src="./img/3.jpg" alt="">
+                    <div class="rating dFlex">
+                        <input value="5" name="rate" id="star5" type="radio">
+                        <label title="text" for="star5"></label>
+                        <input value="4" name="rate" id="star4" type="radio">
+                        <label title="text" for="star4"></label>
+                        <input value="3" name="rate" id="star3" type="radio" checked="">
+                        <label title="text" for="star3"></label>
+                        <input value="2" name="rate" id="star2" type="radio">
+                        <label title="text" for="star2"></label>
+                        <input value="1" name="rate" id="star1" type="radio">
+                        <label title="text" for="star1"></label>
+                    </div>
+                    <div>
+                        <p>Long dress</p>
+                        <h4 class="colorP">70.00$</h4>
+                    </div>
+                </div>
+                <!-- viola -->
+            </div>
+            <h2 class="dFlex center marginTop pink">Comming Soon</h2>
+            <div class="grid gridfrfrfr marginTop">
                 <div>
-                    <h3 class="colorP ">Support 24/7</h3>
-                    <p>Contact us 24 hrs a day</p>
-                </div>
-            </div>
-            <div class="dFlex gap25 margin20 ">
-                <img src="./img/326667_lock_open_icon.png" alt="">
-                <div class=" ">
-                    <h3 class="colorP ">Payment Secure</h3>
-                    <p>Free shipping on order</p>
-                </div>
-            </div>
-        </div>
-        <h2 class="dFlex center marginTop pink">Arrivals Product</h2>
-        <div class="dFlex center gap25 marginTop fontSize ">
-            <button id="button1" class="pink ">Top Sell</button>
-            <button id="button2" class="pink ">Best Sellers</button>
-            <button id="button3" class="pink">New Arrivals</button>
-        </div>
-        <div id="images1" class="grid gridfrfrfr marginTop  images active">
-            <div><img class="img3 borderRadius" src="./img/1.jpg" alt="">
-                <div class="rating dFlex">
-                    <input value="5" name="rate" id="star5" type="radio">
-                    <label title="text" for="star5"></label>
-                    <input value="4" name="rate" id="star4" type="radio">
-                    <label title="text" for="star4"></label>
-                    <input value="3" name="rate" id="star3" type="radio" checked="">
-                    <label title="text" for="star3"></label>
-                    <input value="2" name="rate" id="star2" type="radio">
-                    <label title="text" for="star2"></label>
-                    <input value="1" name="rate" id="star1" type="radio">
-                    <label title="text" for="star1"></label>
+                    <img class="img3 borderRadius" src="./img/card2-1.jpg" alt="">
                 </div>
                 <div>
-                    <p>Long dress</p>
-                    <h4 class="colorP">59.00$</h4>
+                    <img class="img3 borderRadius" src="./img/card2-2.jpg" alt="">
                 </div>
+                <div> <img class="img3 borderRadius" src="./img/card3-1.jpg" alt=""></div>
             </div>
-            <div><img class="img3 borderRadius" src="./img/1.jpg" alt="">
-                <div class="rating dFlex">
-                    <input value="5" name="rate" id="star5" type="radio">
-                    <label title="text" for="star5"></label>
-                    <input value="4" name="rate" id="star4" type="radio">
-                    <label title="text" for="star4"></label>
-                    <input value="3" name="rate" id="star3" type="radio" checked="">
-                    <label title="text" for="star3"></label>
-                    <input value="2" name="rate" id="star2" type="radio">
-                    <label title="text" for="star2"></label>
-                    <input value="1" name="rate" id="star1" type="radio">
-                    <label title="text" for="star1"></label>
+        </div>
+        <h1 class="dFlex center marginTop pink fontSize70 ">Customer</h1>
+        <h2 class="dFlex center  pink ">Experiences</h2>
+        <div class="container">
+            <div class="testimonials">
+
+                <div class="testimonial">
+                    <img src="https://via.placeholder.com/60" alt="Customer Image">
+                    <p class="quote">
+                        "This boutique is seriously one of a kind and hands down my favorite.
+                        They have the most stylish clothing and you’ll never see it anywhere else."
+                    </p>
+                    <p class="author">- Maeve K.</p>
+                    <div class="stars">★★★★★</div>
                 </div>
 
-                <div>
-                    <p>Long dress</p>
-                    <h4 class="colorP">55.00$</h4>
-                </div>
-            </div>
-            <div class=""><img class="img3 borderRadius" src="./img/1.jpg" alt="">
-                <div class="rating dFlex">
-                    <input value="5" name="rate" id="star5" type="radio">
-                    <label title="text" for="star5"></label>
-                    <input value="4" name="rate" id="star4" type="radio">
-                    <label title="text" for="star4"></label>
-                    <input value="3" name="rate" id="star3" type="radio" checked="">
-                    <label title="text" for="star3"></label>
-                    <input value="2" name="rate" id="star2" type="radio">
-                    <label title="text" for="star2"></label>
-                    <input value="1" name="rate" id="star1" type="radio">
-                    <label title="text" for="star1"></label>
-                </div>
-                <div>
-                    <p>Long dress</p>
-                    <h4 class="colorP">70.00$</h4>
-                </div>
-            </div>
-        </div>
-        <div id="images2" class="grid gridfrfrfr marginTop  images ">
-            <div><img class="img3 borderRadius" src="./img/2.jpg" alt="">
-                <div class="rating dFlex">
-                    <input value="5" name="rate" id="star5" type="radio">
-                    <label title="text" for="star5"></label>
-                    <input value="4" name="rate" id="star4" type="radio">
-                    <label title="text" for="star4"></label>
-                    <input value="3" name="rate" id="star3" type="radio" checked="">
-                    <label title="text" for="star3"></label>
-                    <input value="2" name="rate" id="star2" type="radio">
-                    <label title="text" for="star2"></label>
-                    <input value="1" name="rate" id="star1" type="radio">
-                    <label title="text" for="star1"></label>
-                </div>
-                <div>
-                    <p>Long dress</p>
-                    <h4 class="colorP">59.00$</h4>
-                </div>
-            </div>
-            <div><img class="img3 borderRadius" src="./img/2.jpg" alt="">
-                <div class="rating dFlex">
-                    <input value="5" name="rate" id="star5" type="radio">
-                    <label title="text" for="star5"></label>
-                    <input value="4" name="rate" id="star4" type="radio">
-                    <label title="text" for="star4"></label>
-                    <input value="3" name="rate" id="star3" type="radio" checked="">
-                    <label title="text" for="star3"></label>
-                    <input value="2" name="rate" id="star2" type="radio">
-                    <label title="text" for="star2"></label>
-                    <input value="1" name="rate" id="star1" type="radio">
-                    <label title="text" for="star1"></label>
+                <div class="testimonial">
+                    <img src="https://via.placeholder.com/60" alt="Customer Image">
+                    <p class="quote">
+                        "Amazing store. I tend to shop at the very last minute when shopping for a special occasion.
+                        Harlow & Piper never fails. Pieces are unique and fashionable."
+                    </p>
+                    <p class="author">- Kara S.</p>
+                    <div class="stars">★★★★★</div>
                 </div>
 
-                <div>
-                    <p>Long dress</p>
-                    <h4 class="colorP">55.00$</h4>
-                </div>
-            </div>
-            <div class=""><img class="img3 borderRadius" src="./img/2.jpg" alt="">
-                <div class="rating dFlex">
-                    <input value="5" name="rate" id="star5" type="radio">
-                    <label title="text" for="star5"></label>
-                    <input value="4" name="rate" id="star4" type="radio">
-                    <label title="text" for="star4"></label>
-                    <input value="3" name="rate" id="star3" type="radio" checked="">
-                    <label title="text" for="star3"></label>
-                    <input value="2" name="rate" id="star2" type="radio">
-                    <label title="text" for="star2"></label>
-                    <input value="1" name="rate" id="star1" type="radio">
-                    <label title="text" for="star1"></label>
-                </div>
-                <div>
-                    <p>Long dress</p>
-                    <h4 class="colorP">70.00$</h4>
+                <div class="testimonial">
+                    <img src="https://via.placeholder.com/60" alt="Customer Image">
+                    <p class="quote">
+                        "Greatest customer service! The stylist communicated with me to pick the cutest pieces.
+                        She helped with sizing and shipped my order out immediately."
+                    </p>
+                    <p class="author">- Jess L.</p>
+                    <div class="stars">★★★★★</div>
                 </div>
             </div>
         </div>
-        <div id="images3" class="grid gridfrfrfr marginTop  images ">
-            <div><img class="img3 borderRadius" src="./img/3.jpg" alt="">
-                <div class="rating dFlex">
-                    <input value="5" name="rate" id="star5" type="radio">
-                    <label title="text" for="star5"></label>
-                    <input value="4" name="rate" id="star4" type="radio">
-                    <label title="text" for="star4"></label>
-                    <input value="3" name="rate" id="star3" type="radio" checked="">
-                    <label title="text" for="star3"></label>
-                    <input value="2" name="rate" id="star2" type="radio">
-                    <label title="text" for="star2"></label>
-                    <input value="1" name="rate" id="star1" type="radio">
-                    <label title="text" for="star1"></label>
-                </div>
-                <div>
-                    <p>Long dress</p>
-                    <h4 class="colorP">59.00$</h4>
-                </div>
-            </div>
-            <div><img class="img3 borderRadius" src="./img/3.jpg" alt="">
-                <div class="rating dFlex">
-                    <input value="5" name="rate" id="star5" type="radio">
-                    <label title="text" for="star5"></label>
-                    <input value="4" name="rate" id="star4" type="radio">
-                    <label title="text" for="star4"></label>
-                    <input value="3" name="rate" id="star3" type="radio" checked="">
-                    <label title="text" for="star3"></label>
-                    <input value="2" name="rate" id="star2" type="radio">
-                    <label title="text" for="star2"></label>
-                    <input value="1" name="rate" id="star1" type="radio">
-                    <label title="text" for="star1"></label>
-                </div>
-
-                <div>
-                    <p>Long dress</p>
-                    <h4 class="colorP">55.00$</h4>
-                </div>
-            </div>
-            <div class=""><img class="img3 borderRadius" src="./img/3.jpg" alt="">
-                <div class="rating dFlex">
-                    <input value="5" name="rate" id="star5" type="radio">
-                    <label title="text" for="star5"></label>
-                    <input value="4" name="rate" id="star4" type="radio">
-                    <label title="text" for="star4"></label>
-                    <input value="3" name="rate" id="star3" type="radio" checked="">
-                    <label title="text" for="star3"></label>
-                    <input value="2" name="rate" id="star2" type="radio">
-                    <label title="text" for="star2"></label>
-                    <input value="1" name="rate" id="star1" type="radio">
-                    <label title="text" for="star1"></label>
-                </div>
-                <div>
-                    <p>Long dress</p>
-                    <h4 class="colorP">70.00$</h4>
-                </div>
-            </div>
-        </div>
+        <!-- <section class="bgColorP">
+            <article>
+                <h1 class=" dFlex ">Join Our Newsletter</h1>
+                <form>
+                    <input placeholder="Your E-Mail Address" />
+                    <div>
+                        <button>Subcribe</button>
+                    </div>
+                </form>
+            </article>
+        </section> -->
     </main>
+    <footer>
+        <figure class="dFlex center">
+            <img class="img1" src="./img/Untitled-1.png" alt="">
+        </figure>
+        <div class="dFlex center gap25 margin20">
+            <p>Hamdi Kurteshi Gjilan</p>
+            <p>+38346114655</p>
+            <p>demirilina1@gmail.com</p>
+        </div>
+        <div class="dGrid grid4fr just-center alItems m-1 displayResponsive ">
+            <div class="m-5">
+                <h3>Infromation</h3>
+                <ul class="m-0">
+                    <li class="colorGray  p-0">Shop</li>
+                    <li class="colorGray  p-0">Skin care</li>
+                    <li class="colorGray  p-0">Cosmetics</li>
+                    <li class="colorGray  p-0">Eye </li>
+                    <li class="colorGray  p-0 ">Beauty</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Accounts
+                </h3>
+                <ul>
+                    <li class="colorGray p-0">Personal info</li>
+                    <li class="colorGray p-0">Orders</li>
+                    <li class="colorGray p-0">Credit slips</li>
+                    <li class="colorGray p-0">Addresses</li>
+                    <li class="colorGray p-0">My wishlists</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Support</h3>
+                <ul>
+                    <li class="colorGray p-0">Delivery</li>
+                    <li class="colorGray p-0">Legal Notice</li>
+                    <li class="colorGray p-0">Terms and conditions of use</li>
+                    <li class="colorGray p-0">About us</li>
+                    <li class="colorGray p-0">Secure payment</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Need Help ?</h3>
+                <ul>
+                    <li class="colorGray p-0">Delivery</li>
+                    <li class="colorGray p-0">Secure payment</li>
+                    <li class="colorGray p-0">Contact us</li>
+                    <li class="colorGray p-0">Sitemap</li>
+                    <li class="colorGray p-0">Stores</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
     <script src="./js/main.js"> </script>
 </body>
 
