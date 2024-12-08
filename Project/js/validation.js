@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
-// SIGNUP FORM VALIDATION
+// SIGNUP 
 const signupForm = document.getElementById('signup-form');
 if (signupForm) {
     signupForm.addEventListener('submit', (event) => {

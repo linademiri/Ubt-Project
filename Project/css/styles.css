@@ -268,3 +268,146 @@ button {
 .marginLeft {
     margin-left: 40px;
 }
+
+/* index3 */
+.cardProduct {
+    border-radius: 4px;
+    height: 60vh;
+    display: flex;
+    margin-top: 10vh;
+    gap: 5px;
+    padding: .4em;
+}
+
+.cardProduct p {
+    height: 100%;
+    flex: 1;
+    overflow: hidden;
+    border-radius: 2px;
+    transition: all .5s;
+    border: 3px solid #ec008c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardProduct p:hover {
+    flex: 4;
+}
+
+.cardProduct p span {
+    min-width: 14em;
+    padding: .5em;
+    text-align: center;
+    transform: rotate(-90deg);
+    transition: all .5s;
+    text-transform: uppercase;
+    color: #ec008c;
+    letter-spacing: .1em;
+
+}
+
+.cardProduct p:hover span {
+    transform: rotate(0);
+    display: none;
+}
+
+.cardProduct p:hover .dNone {
+    display: flex;
+    width: 100%;
+}
+
+.dNone {
+    display: none;
+}
+
+/* index4 */
+.form-container {
+    width: 400px;
+
+    border: 2px solid transparent;
+    padding: 32px 24px;
+    font-size: 14px;
+    font-family: inherit;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-sizing: border-box;
+    border-radius: 16px;
+}
+
+.form-container button:active {
+    scale: 0.95;
+}
+
+.form-container .form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-container .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.form-container .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ec008c;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.form-container .form-group input {
+    width: 100%;
+    padding: 12px 16px;
+    border-radius: 8px;
+    color: #fff;
+    font-family: inherit;
+    background-color: transparent;
+    border: 1px solid #ec008c;
+}
+
+.form-container .form-group textarea {
+    width: 100%;
+    padding: 12px 16px;
+    border-radius: 8px;
+    resize: none;
+    color: #fff;
+    height: 96px;
+    border: 1px solid #ec008c;
+    background-color: transparent;
+    font-family: inherit;
+}
+
+.form-container .form-group input::placeholder {
+    opacity: 0.5;
+}
+
+
+.form-container .form-submit-btn {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    align-self: flex-start;
+    font-family: inherit;
+    color: white;
+    font-weight: 600;
+    width: 40%;
+    background: #ec008c;
+    border: 1px solid transparent;
+    padding: 12px 16px;
+    font-size: inherit;
+    gap: 8px;
+    margin-top: 8px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.form-container .form-submit-btn:hover {
+    background-color: #5f093c;
+    border-color: #fff;
+}
