@@ -411,3 +411,59 @@ button {
     background-color: #5f093c;
     border-color: #fff;
 }
+
+/* index.html */
+@media only screen and (max-width: 850px) {
+    .responsiveNone {
+        display: none;
+    }
+
+    .resFlex {
+        display: flex;
+        gap: 10px;
+
+    }
+
+    .img3 {
+        width: 200px;
+        height: 200px;
+    }
+
+    .imgRes {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+
+    .imgResCard2 {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+        padding-left: 80px;
+    }
+}
+
+/* iphone */
+@media only screen and (max-width: 600px) {
+    .responsiveNone {
+        display: none;
+    }
+
+    .imgRes {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .imgResCard2 {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+        padding: 10px 10px 10px 0;
+    }
+
+    footer {
+        display: none;
+    }
+
+}
